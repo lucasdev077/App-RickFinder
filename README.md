@@ -1,6 +1,6 @@
 # Rick and Morty Character Search
 
-Uma aplicação em React que consome a API pública da série Rick and Morty. Permite buscar personagens pelo nome e exibe detalhes como imagem, espécie, status e localização.
+Uma aplicação em React que consome a API pública da série Rick and Morty. E permite buscar personagens pelo nome e exibe detalhes como imagem, espécie, status e localização.
 
 ## 🔧 Tecnologias
 - React (com Hooks)
