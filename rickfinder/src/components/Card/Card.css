@@ -1,0 +1,53 @@
+
+.card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 260px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    margin: 1rem;
+  }
+  
+  .card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-image {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .card-content {
+    padding: 1rem;
+    text-align: left;
+  }
+  
+  .card-name {
+    margin: 0;
+    font-size: 1.4rem;
+    color: #333;
+  }
+  
+  .card-content p {
+    margin: 0.4rem 0;
+    color: #555;
+  }
+  
+  /* Modo noite: quando a classe "dark-mode" estiver presente no body ou wrapper */
+  .dark-mode .card {
+    background-color: #1f1f1f;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.05);
+  }
+  
+  .dark-mode .card:hover {
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.1);
+  }
+  
+  .dark-mode .card-name,
+  .dark-mode .card-content p {
+    color: #eee;
+  }
+  

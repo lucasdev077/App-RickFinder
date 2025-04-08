@@ -1,0 +1,76 @@
+/* Estiliza o formulário */
+form {
+  margin: 40px auto;
+  text-align: center;
+}
+
+/* Input da busca */
+form input {
+  padding: 10px 20px;
+  font-size: 18px;
+  border: 2px solid #264534;
+  border-radius: 25px;
+  outline: none;
+  width: 300px;
+  transition: all 0.3s ease; 
+}
+
+/* Efeito ao focar no input */
+form input:focus {
+  border-color: #3fa36b;
+  box-shadow: 0 0 10px rgba(63, 163, 107, 0.4);
+}
+
+/* Botão de busca */
+form button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  font-size: 18px;
+  background-color: #3fa36b;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Efeito hover no botão */
+form button:hover {
+  background-color: #2e7d58;
+}
+
+/* Estilo padrão (modo claro) */
+.App {
+  background-color: #f9f9f9;
+  color: #222;
+  min-height: 100vh;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Modo escuro */
+.App.dark-mode {
+  background-color: #121212;
+  color: #f5f5f5;
+}
+
+/* Botão de alternância de modo */
+.mode-toggle {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+}
+
+.mode-toggle button {
+  background-color: #2e7d58;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.mode-toggle button:hover {
+  background-color: #8BCF21;
+}
+
